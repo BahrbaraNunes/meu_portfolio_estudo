@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+header{
+    background-color: #000000;
+    width: 100%; 
+    padding: 10px; 
+}
+.logo, .sociais{
+    width: 25%;
+}
+.logo img{
+    width: 30px;
+    cursor: pointer;
+}
+.menu{
+    width: 50%;
+}
+.menu nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+    position: relative;
+    
+}
+.menu nav a::after{
+    content:" ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #16097a, #07a5f4);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.4s;  
+}
+.menu nav a:hover::after{
+    width: 30px;
+    
+}
+nav a:hover{
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+.sociais button{
+    width: 30px;
+    height: 30px;
+    background-image: linear-gradient(45deg, #16097a, #07a5f4);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.sociais button i{
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+.saudacao{
+    background: #262626;
+    height: 92vh;
+}
+.elemento{
+    position: absolute;
+    top: 39%;
+    left: 40%;
+    transform: translate(-50%, -50%, -50%, -50%);
+}
+h1{
+    color: #07a5f4;
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+button{
+    border: none;
+    border-radius: 4px;
+    transition: all .5s;
+    width: 180px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    background: linear-gradient(168.24deg, #71F6FF -6.32%, rgba(197, 0, 0, 0) 172.46%);
+    color: #000000;
+}
+button span{
+    display: inline-block;
+    position: relative;
+    transition: all 0.5s;
+}
+button:hover{
+    cursor: pointer;
+}
+.bounce-effect:hover{
+    width: 189px;
+    height: 42px;
+}
+.bounce-effect:active{
+    width: 171px;
+    height: 38px;
+}
+
+.proj{
+    background-color: #07a5f4;
+}
+.flexbox{
+    display: flex;
+
+}
+.sobre{
+    background-color: yellowgreen;
+}
+img{
+    width: 200px;
+}
+.forma{
+    background-color: rebeccapurple;
+}
+footer{
+    background-color: #0784a0;
+}
+/*h2{
+    height: 48px;
+    left: 162px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+
+}
+h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+    color:   #00A1C5 ;
+}*/
