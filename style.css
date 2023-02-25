@@ -66,14 +66,12 @@ nav a:hover{
 }
 .sociais button i{
     font-size: 20px;
-    color: #ffffff;
-    
+    color: #ffffff;   
 }
 
 
 body{
-    background-color: rgb(0, 0, 0);
-    
+    background-color: rgb(0, 0, 0);   
 }
 .saudacao{
     background: #262626;
@@ -133,7 +131,8 @@ button:hover{
     background-color: yellowgreen;
 }
 img{
-    width: 200px;
+    width: 150px;
+    border-radius: 150px;
 }
 .forma{
     background-color: rebeccapurple;
